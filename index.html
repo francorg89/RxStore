@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Righteous&family=Titillium+Web:wght@700&display=swap" rel="stylesheet">
+    <title>RxStore</title>
+</head>
+<body>
+    <header >
+        <nav>
+            <div style="border: white dotted 1px" class="logo">
+                <img src="" alt="The beatufil logo">
+            </div>
+            <ul class="navbar">
+                <li><a href="./models.html">Modelos</a></li>
+                <li><a href="testimonials">Nuestros Clientes</a></li>
+                <li><a href="./contact.html">Contacto</a></li>
+                <li><a href="#">Shop</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="intro">
+        <div class="title">
+            <h1>Equipos Rayos-X </h1>
+        </div>
+        <h2>Venta de equipos nuevos marca Discover</h2>
+        <h2>Envios a toda la republica</h2>
+
+    </section>
+   
+    <section class="gallery" >
+        <h2>4 modelos disponibles </h2>
+        
+        <div class="banner" >
+        
+               
+            <img onclick="goTo('movil')" onmouseover="changeName('Dental Movil')" onmouseout="changeName('')" src="./images/carrito.jpg" alt="RxImg01">
+            <img onmouseover="changeName('Dental Fijo')" onmouseout="changeName('')"src="./images/portatil.jpg" alt="RxImg02">
+            <img onmouseover="changeName('Dental Portatil')" onmouseout="changeName('')" src="./images/vet-soporte.jpg" alt="RxImg03">
+            <img onmouseover="changeName('Veterinario Portatil')" onmouseout="changeName('')" src="./images/vet.jpg" alt="RxImg04">
+            
+            <!--<img src="./images/carrito.jpg" alt="RxImg05">
+            <img src="./images/portatil.jpg" alt="RxImg06">
+            <img src="./images/vet.jpg" alt="RxImg07"> -->
+            
+            
+        </div>
+        <h2 id="model"></h2>
+        
+        
+        
+    </section>
+    <section class="features">
+        <h2>Todos nuestros equipos cuentan con un año de garantia</h2>
+        <h2>A partir de la fecha de compra </h2>
+        <p>Tenemos trato directo con el fabricante  </p>
+        <div class="miniinfo">
+            <div>
+                <h3>Control remoto</h3>
+                <p>Para mando a distancia </p>
+                <img src="" alt="">
+            </div>
+            <div>
+                <h3>Pantalla touch </h3>
+                <p>Para una mejor presentacion </p>
+                <img src="" alt="">
+            </div>
+            <div>
+                <h3>Hecho en Mexico </h3>
+                <p> Trato directo con fabricantes</p>
+                <img src="" alt="">
+            </div>
+            
+        </div>
+    </section>
+    <section id="testimonials" class="testimonials">
+        <h2>Testimonials</h2>
+        <div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </section>
+    <section id= "contact" class="contact">
+        <h3>¿Te interesa una atencion telefonica?</h3>
+        <h2>Contacto</h2>
+    </section>
+    <script src="./aux.js"></script>
+</body>
+</html>
